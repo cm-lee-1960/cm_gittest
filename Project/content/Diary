@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 일기장 </title>
+    <meta charset = "utf-8">   
+</head>
+    <body>
+        <form action="/content/Diary" method="post">
+              <label for="theme">제목:</label>  
+              <textarea name ="theme" rows = "1" cols = "100"></textarea><br>
+              <table width="600" cellpadding="0" cellspacing="0" border="0" align="left">
+                  <tr>
+                      <td> <label for="diary">내용:</label></td>
+                      <td> <textarea name ="diary" rows="25" cols="100"></textarea>  </td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td><button type="submit">저장</button>
+                      <button type="reset" value="Reset">지우기</button></td>
+                  </table>
+        </form>
+    </body>
+</html>

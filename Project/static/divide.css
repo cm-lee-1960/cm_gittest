@@ -1,0 +1,7 @@
+#container{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr
+        }
+#menulist{
+             font-size: 15px;
+        }

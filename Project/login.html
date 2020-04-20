@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 일기장 </title>
+    <meta charset = "utf-8" />
+    <link type="text/css" rel="stylesheet" href="/static/divide.css">   
+</head>
+    <body>
+      <h1 align="center"> 일기장 </h1>
+   <div id ="container">
+      <div id = "menulist"> 
+        <ul>
+           {1}
+        </ul>
+      </div>
+      <div>
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <p><input type="text" name="id" placeholer="userid"></p>
+            <p><input type="password" name="pw" placeholer="password"></p>
+            <button type="submit">로그인</button>
+        </form>
+           {0}
+      </div>
+      <div>
+        달력
+      </div>
+    </div>
+ </body>
+</html>
